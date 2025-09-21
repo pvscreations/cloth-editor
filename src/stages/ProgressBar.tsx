@@ -24,7 +24,7 @@ export const ProgressBar = ({
   useLayoutEffect(() => {
     if (progress === 100) {
       delay(() => {
-        setGameState(EGameStage.START_SCREEN);
+        setGameState(EGameStage.GAME_PLAY);
       }, 0.5);
     }
   }, [progress]);
@@ -37,9 +37,7 @@ export const ProgressBar = ({
     <group>
       {/* Progress Text */}
       <Text
-        font={
-          "/comic-sans-ms-bold.ttf"
-        }
+        font={"/comic-sans-ms-bold.ttf"}
         color={new Color(100 / 255, 104 / 255, 113 / 255).convertSRGBToLinear()}
         fontSize={0.3}
         textAlign="center"
@@ -64,7 +62,7 @@ export const ProgressBar = ({
             color={new Color(
               40 / 255,
               142 / 255,
-              148 / 255,
+              148 / 255
             ).convertSRGBToLinear()}
             {...stencil}
           />

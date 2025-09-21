@@ -1,5 +1,5 @@
 {
-  "name": "ball game",
+  "name": "Cloth Editor",
   "short_name": "App",
   "icons": [
     {
@@ -30,5 +30,6 @@
   "start_url": "/",
   "display": "standalone",
   "background_color": "#FFFFFF",
-  "theme_color": "#FFFFFF"
+  "theme_color": "#FFFFFF",
+  "description": "A performant 3D annotation system for .glb models built with React Three Fiber, Leva, and three-mesh-bvh"
 }

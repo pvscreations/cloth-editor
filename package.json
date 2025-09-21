@@ -1,5 +1,5 @@
 {
-  "name": "ball-game",
+  "name": "cloth-editor",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -27,6 +27,7 @@
     "three": "^0.180.0",
     "three-bvh-csg": "0.0.16",
     "three-fatline": "^0.7.1",
+    "three-mesh-bvh": "^0.9.1",
     "vite-plugin-glsl": "^1.5.1",
     "zustand": "^5.0.8"
   },
