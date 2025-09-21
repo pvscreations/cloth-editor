@@ -1,0 +1,23 @@
+export enum EAnalyticsEvents {
+  LOAD_WEIGHTS_BEGIN,
+  LOAD_WEIGHTS_END,
+  LOAD_WEIGHTS_ERROR,
+
+  CAMERA_ACCESS_BEGIN,
+  CAMERA_ACCESS_END,
+  CAMERA_ACCESS_DENIED,
+
+  ENTER_INTO_EXPERIENCE,
+  ENTER_INTO_DEBUG_MODE,
+
+  CLASSIFICATION_BEGIN,
+  CLASSIFICATION_ERROR,
+}
+
+export enum EAnalyticsData {
+  LANDMARKS_NOT_DETECTED,
+}
+
+export const gameVar = {
+  firstClassification: false,
+};
