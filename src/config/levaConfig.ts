@@ -31,4 +31,5 @@ export const postprocessingConfig = {
 
 export const debuggerConfig = {
   enableOrbitControls: { value: true },
+  showMonitors: { value: false },
 };

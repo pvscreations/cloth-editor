@@ -25,7 +25,7 @@ root.render(
     >
       <Experience />
     </Canvas>
-    <Leva />
+    <Leva collapsed />
     <Analytics />
   </>
 );
